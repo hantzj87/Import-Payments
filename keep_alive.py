@@ -23,7 +23,7 @@ import urllib.error
 from datetime import datetime
 
 # ── Config ────────────────────────────────────────────────────────────────────
-APP_URL      = os.environ.get("STREAMLIT_URL", "https://your-app-name.streamlit.app")
+APP_URL      = os.environ.get("STREAMLIT_URL", "https://import-payments-ec2pll4pn52f7skenjp7mf.streamlit.app/")
 INTERVAL_SEC = 10 * 60   # ping every 10 minutes
 TIMEOUT_SEC  = 30        # request timeout
 
